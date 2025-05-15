@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CaseCraft – Convert Text Instantly</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛠️ CaseCraft</h1>
+    <p>Quickly convert your text into different formats with style!</p>
+  </header>
+
+  <main>
+    <textarea id="inputText" placeholder="Paste or type your text here..."></textarea>
+
+    <div class="button-group">
+      <button onclick="toSentenceCase()">Sentence Case</button>
+      <button onclick="toLowerCase()">lower case</button>
+      <button onclick="toUpperCase()">UPPER CASE</button>
+      <button onclick="toCapitalizedCase()">Capitalized Case</button>
+      <button onclick="toAlternatingCase()">aLtErNaTiNg cAsE</button>
+      <button onclick="toInverseCase()">InVeRsE CaSe</button>
+    </div>
+
+    <div class="button-group utility">
+      <button onclick="downloadText()">Download Text</button>
+      <button onclick="copyText()">Copy to Clipboard</button>
+      <button onclick="clearText()">Clear</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Your converted text will appear here..." readonly></textarea>
+
+    <div id="stats">
+      <span id="charCount">Characters: 0</span> |
+      <span id="wordCount">Words: 0</span> |
+      <span id="lineCount">Lines: 0</span>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CaseCraft.io</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
