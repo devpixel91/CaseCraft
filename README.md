@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-👉 [Visit CaseCraft](https://your-username.github.io/casecraft)
+👉 [Visit CaseCraft](https://devpixel91.github.io/casecraft)
 
 ---
 
