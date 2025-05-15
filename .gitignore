@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Node modules (in case you add npm in future)
+node_modules/
+
+# Logs
+*.log
+
+# Optional: Ignore build/output folder if added later
+dist/
+build/
+
+# OS-specific temp files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Git conflict backup files
+*.orig
+
+# Ignore env files (if used later)
+.env
