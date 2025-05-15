@@ -40,5 +40,5 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/casecraft.git
+git clone https://github.com/devpixel91/casecraft.git
 cd casecraft
